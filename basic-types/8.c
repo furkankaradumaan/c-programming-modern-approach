@@ -29,7 +29,7 @@ int main() {
         bool res_pm;
 
         printf("Enter a 12-hour time: ");
-        scanf("%d/%d %c", &hour_12, &min_12, &pm);
+        scanf("%d:%d %c", &hour_12, &min_12, &pm);
 
         // Calculate closest flight
         if (pm == 'p' || pm == 'P') {

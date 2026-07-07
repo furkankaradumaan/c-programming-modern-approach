@@ -28,7 +28,7 @@ int main() {
         bool res_pm;
 
         printf("Enter a 24-hour time: ");
-        scanf("%d/%d", &hour_24, &min_24);
+        scanf("%d:%d", &hour_24, &min_24);
 
         // Calculate closest flight
         minutes_since_midnight = hour_24 * 60 + min_24;
